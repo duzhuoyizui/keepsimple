@@ -2,31 +2,30 @@
 Theme Name: keepsimple
 Theme URI: 
 Description: A simple blog theme for IT tech-blog.
-Version: 0.5
+Version: 0.4
 Author: Jerry Zhang
-Author URI: http://www.perfect-is-shit.com/
+Author URI: http://www.keepsimply.org
 Tags: simple, fixed width, two columns, widgets
 
    keepsimple depend on kubrick, changed by Jerry Zhang. 
-   Get more information in my blog(http://www.perfect-is-shit.com//category/software-list/keepsimple/).
+   Get more information in my blog(http://www.keepsimply.org/category/software-list/keepsimple/).
 */
 
 /* -- container -- */
 body {
 	font-size: 12px;
-	font-family:'trebuchet ms', verdana, helvetica, 'Lucida Grande',Sans-Serif;
-	/*background-color:#AFB8A2;*/
-	background-color:#2B2D2F;
-	color: #3C3C3C;
-	text-align:center;
+	font-family:'Lucida Grande', Verdana, Sans-Serif;
+	background-color:#AFB8A2;
+	color: #2C2C2C;
+	text-align: center;
 	margin: 0;
 	padding: 0;
 }
 #page {
+	background-color: #FFFFFF;;
 	border: 1px solid #959596;
 	text-align: left;
-	/*background-color: #F8F8F8;*/
-	background-color: #FFFFFF;
+	background-color: #F8F8F8;
 	margin: 3px auto 10px auto;
 	padding: auto;
 	width: 680px;
@@ -48,7 +47,7 @@ body {
 #title {
 	margin: 0px 0px 0px 0px;
 	padding: 11px 20px 0px 30px;
-	font-size: 28px;
+	font-size: 30px;
 	text-align: left;
 	height:40px;
 }
@@ -57,7 +56,7 @@ body {
 	border-top: solid 1px #CCCCCC;
 	font-size: 18px;
 	text-align: left;
-	padding: 5px 0px 0px 0px;
+	padding: 2px 0px 0px 0px;
 	height: 30px;
 }
 #title>a {
@@ -96,29 +95,16 @@ body {
 #sidebar form {
 	margin: 0;
 }
-
 /* narrowcolumn & widecolumn */
 #content {
 	font-size: 12px;
 }
 
 .widecolumn .entry p {
-	font-size: 12px;
-	margin-top:10px;
-	margin-bottom:10px;
-	line-height: 1.5;
-}
-.entry a{
-	color:#000000;
-	text-decoration:underline;
-}
-
-.entry a:hover{
-	color:#3C3C3C;
-	text-decoration:none;
+	font-size: 1.05em;
 }
 .widecolumn {
-	/*background-color:#F6F6F6;*/
+	background-color:#F6F6F6;
 	border-left:2px solid #E8E8E8;
 	border-right:2px solid #E8E8E8;
 	border-top:2px solid #E8E8E8;
@@ -131,31 +117,16 @@ body {
 }
 
 .narrowcolumn {
-	/*background-color:#F6F6F6;*/
+	background-color:#F6F6F6;
 	border-left:2px solid #E8E8E8;
 	float: left;
-	padding: 0 10px 5px 15px;
+	padding: 0 10px 20px 15px;
 	margin: 0;
 	width: 463px;
 }
 
 .narrowcolumn .entry, .widecolumn .entry {
-	line-height: 1.6em;
-}
-
-.widecolumn .entry {
-	margin:0;
-	padding:2px 2px 2px 2px;
-}
-
-.narrowcolumn .entry p{
-	margin: 5px 0px 5px 0px;
-}
-
-.entry small {
-	display:block;
-	border-top:1px solid #D0D0D0;
-	text-align:right;
+	line-height: 1.4em;
 }
 
 .narrowcolumn .postmetadata {
@@ -163,9 +134,6 @@ body {
 	padding-top: 0px;
 }
 
-.textwidget {
-	padding:2px 15px 2px 10px;
-}
 /* -- footer -- */
 #footer {
 	clear: both;
@@ -186,7 +154,7 @@ body {
 
 /* -- comment -- */
 .commentlist li, #commentform input, #commentform textarea {
-	/*background:#F5F5F5;*/
+	background:#F5F5F5;
 	font-size:12px;
 	font:'Lucida Grande',Verdana, Sans-Serif;
 }
@@ -202,14 +170,11 @@ body {
 	padding: 2px;
 	background: #fff;
 }
-
 .commentlist cite, .commentlist cite a {
-	font-style: normal;
-	float:left;
 	font-weight: bold;
+	font-style: normal;
 	font-size: 1.1em;
 }
-
 .commentlist p {
 	font-weight: normal;
 	line-height: 1.5em;
@@ -225,7 +190,7 @@ body {
 	
 /* -- text style */
 .thread-alt {
-	/*background-color: #f8f8f8;*/
+	background-color: #f8f8f8;
 }
 .thread-even {
 	background-color: white;
@@ -236,11 +201,10 @@ border: 1px solid #ddd;
 .even, .alt {
 	border-left: 1px solid #ddd;
 }
-
 small {
-	font-size: 11px;
-}
-
+	font-size: 0.9em;
+	line-height: 1.5em;
+	}
 h1, h2, h3 {
 	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Sans-Serif;
 	font-weight: bold;
@@ -338,10 +302,12 @@ a:hover {
 	margin: 0 0 20px;
 	text-align: justify;
 }
-
 .clear {
 	clear: both;
 }
+
+
+
 
 h2.pagetitle {
 	text-align: center;
@@ -412,22 +378,17 @@ img.alignleft {
 	Do not work in Internet Explorer, which merely default to normal bullets. */
 
 html>body .entry ul {
-	/*margin-left: 0px;
-	padding: 0 0 0 10px;
-	list-style: none;
-	padding-left: 10px;*/
 	margin-left: 0px;
-	padding: 5px 10px 5px 15px;
+	padding: 0 0 0 30px;
 	list-style: none;
-	border: 1px solid #F0F0F0;
-	/*text-indent: -2px;*/
+	padding-left: 10px;
+	text-indent: -5px;
 	/*text-indent: -10px;*/
 }
 
 html>body .entry li {
-	margin: 2px 2px 4px 10px;
-	padding:0;
-}
+	margin: 7px 0 8px 10px;
+	}
 
 #sidebar ul ul li:before {
 	content: "\00BB \0020";
@@ -447,7 +408,7 @@ html>body .entry li {
 	display: inline;
 	list-style-type: none;
 	list-style-image: none;
-}
+	}
 
 #sidebar ul, #sidebar ul ol {
 	margin: 0;
@@ -457,6 +418,7 @@ html>body .entry li {
 #sidebar ul li {
 	list-style-type: none;
 	list-style-image: none;
+	margin-bottom: 10px;
 }
 
 #sidebar ul p, #sidebar ul select {
@@ -478,8 +440,8 @@ ol li, #sidebar ul ol li {
 #sidebar ul ul li, #sidebar ul ol li {
 	margin: 3px 10px 0px 0px;
 	padding: 0;
-}
-
+	}
+	
 ul li {
 	list-style-type: disc;
 }
@@ -560,7 +522,7 @@ select {
 
 .commentlist li {
 	margin: 0px 0 10px;
-	padding: 5px 5px 10px 5px;
+	padding: 5px 5px 10px 10px;
 	list-style: none;
 }
 .commentlist li ul li { 
@@ -659,12 +621,13 @@ blockquote cite {
 	
 
 .post hr {
-	color:#CCC;
-	height:1px;
-	border:0px;
-	border-top:1px solid;
+	color:#D0D0D0;
+	display: block;
 }
-
+hr {
+	color:#D0D0D0;
+	display: none;
+}
 
 a img {
 	border: none;
@@ -700,3 +663,21 @@ th {
 
 * html .clearfix{zoom: 1;}      /* IE6.0 */
 *:first-child + html .clearfix{zoom: 1;}
+
+/* Customizing */
+/* 标注 */
+.notes {
+	color:#78AA61;
+}
+/* 文章开始部分的声明 */
+.statement{
+	color:#FF7861;
+}
+/* 与本文无关的 */
+.aux {
+	color:#AFB8A2;
+}
+/* 文章内部的强调 */
+.emphasize {
+	color:#7861FF;
+}
