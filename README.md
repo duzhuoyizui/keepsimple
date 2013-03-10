@@ -21,7 +21,7 @@ keepsimple 以“简洁”为理念，专门为 IT 技术博客设计的 wordpre
 5. 文章页面进行了精简
 6. 删除扩展项的CSS
 
-详细介绍：[keepsimple v0.6 发布](http://www.perfect-is-shit.com/2013/01/18/wordpress-theme-keepsimplev06/)
+详细介绍：[keepsimple v0.6 发布](http://www.perfect-is-shit.com/2013/03/10/wordpress-theme-keepsimplev06/)
 
 更新日期：2013年03月10日
 
