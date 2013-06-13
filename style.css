@@ -2,7 +2,7 @@
 Theme Name: keepsimple
 Theme URI: 
 Description: A simple blog theme for IT tech-blog.
-Version: 0.4
+Version: 0.5
 Author: Jerry Zhang
 Author URI: http://www.keepsimply.org
 Tags: simple, fixed width, two columns, widgets
@@ -14,13 +14,14 @@ Tags: simple, fixed width, two columns, widgets
 /* -- container -- */
 body {
 	font-size: 12px;
-	font-family:'Lucida Grande', Verdana, Sans-Serif;
-	background-color:#AFB8A2;
+	font-family: "trebuchet ms", ubuntu, monaco, Sans-Serif;
+	background-color:#2B2D2F;
 	color: #2C2C2C;
 	text-align: center;
 	margin: 0;
 	padding: 0;
 }
+
 #page {
 	background-color: #FFFFFF;;
 	border: 1px solid #959596;
