@@ -18,7 +18,6 @@
 <!-- You can start editing here. -->
 <?php if ( have_comments() ) : ?>
 	<h3 class="comments">评论列表<?php echo $comment_pages; ?>:</h3>
-	
 	<div class="clearfix"></div>
 	<ol class="commentlist">
 	<?php wp_list_comments();?>

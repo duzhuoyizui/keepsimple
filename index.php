@@ -13,13 +13,10 @@ get_header(); ?>
 
 			<div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 				<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf(__('Permanent Link to %s', 'kubrick'), the_title_attribute('echo=0')); ?>"><?php the_title(); ?></a></h2>
-				<small><?php the_time(__('F jS, Y', 'kubrick')) ?> | <!-- by <?php the_author() ?> --><?php edit_post_link(__('Edit', 'kubrick'), '', ' | '); ?>  <?php comments_popup_link(__('No Comments', 'kubrick'), __('1 Comment', 'kubrick'), __('% Comments ', 'kubrick'), '', __('Comments Closed', 'kubrick') ); ?></small>
-
 				<div class="entry">
-					<p class="postmetadata"><?php the_content(__('Read more&raquo;', 'kubrick')); ?></p>
+					<?php the_content(('')); ?>
+					<small><?php the_date() ?> <?php the_time() ?> | <?php edit_post_link(__('Edit', 'kubrick'), '', ' | '); ?><a href="<?php the_permalink() ?>">全文阅读</a> | <?php comments_popup_link('评论(0)', '评论(1)', '评论(%)',  '评论(已关闭)' ); ?></small>
 				</div>
-
-				
 			</div>
 
 		<?php endwhile; ?>

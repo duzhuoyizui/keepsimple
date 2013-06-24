@@ -18,13 +18,8 @@ get_header();
 				<?php the_content('<p class="serif">' . __('Read the rest of this entry &raquo;', 'kubrick') . '</p>'); ?>
 
 				<?php wp_link_pages(array('before' => '<p><strong>' . __('Pages:', 'kubrick') . '</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
-				<?php the_tags( '<p>' . __('Tags:', 'kubrick') . ' ', ', ', '</p>'); ?>
+				<small>BY <?php echo the_author_meta( 'nickname' ); ?> IN <?php the_date() ?> <?php the_time() ?></small>
 			</div>
-		</div>
-		<div class="navigation">
-			<a href="<?php bloginfo('url'); ?>">Back to home </a>|
-			<?php previous_post_link('&laquo; %link') ?>
-			<?php next_post_link('%link &raquo;') ?>
 		</div>
 	<?php comments_template(); ?>
 	

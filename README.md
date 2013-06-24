@@ -12,6 +12,14 @@ keepsimple 以“简洁”为理念，专门为 IT 技术博客设计的 wordpre
 
 ---
 ###版本更新列表###
+
+####keepsimpe v0.7####
+
+1. 修改字体，适配 Windows 7、Ubuntu、MAC OS 三个平台
+2. 所有显示页面全部删除 Read More
+3. 修正底部 URL 错误
+4. 删除部分无用代码
+
 ####keepsimpe v0.6####
 
 1. 主标题字号缩小
