@@ -2,7 +2,7 @@
 Theme Name: keepsimple
 Theme URI: 
 Description: A simple blog theme for IT tech-blog.
-Version: 0.7
+Version: 0.8
 Author: Jerry Zhang
 Author URI: http://www.perfect-is-shit.com/
 Tags: simple, fixed width, two columns, widgets
@@ -15,9 +15,9 @@ Tags: simple, fixed width, two columns, widgets
 body {
 	font-size: 12px;
 	font-family: "trebuchet ms", ubuntu, monaco, Sans-Serif;
-	background-color:#2B2D2F;
+	background-color: #2B2D2F;
 	color: #3C3C3C;
-	text-align:center;
+	text-align: center;
 	margin: 0;
 	padding: 0;
 }
@@ -100,19 +100,19 @@ body {
 }
 
 .widecolumn .entry p {
-	font-size: 12px;
+	font-size: 13px;
 	margin-top:10px;
 	margin-bottom:10px;
 	line-height: 1.5;
 }
 .entry a{
-	color:#000000;
-	text-decoration:underline;
+	color:#3c3c3c;
+	/* text-decoration:underline; */
 }
 
 .entry a:hover{
-	color:#3C3C3C;
-	text-decoration:none;
+	color:#000000;
+	text-decoration: underline;
 }
 .widecolumn {
 	border-left:2px solid #E8E8E8;
@@ -209,7 +209,7 @@ body {
 	text-transform: none;
 }
 #commentform p {
-	font-family:'Lucida Grande', Verdana, Sans-Serif;
+	font-family: "trebuchet ms", ubuntu, monaco, Sans-Serif;
 }
 .commentmetadata {
 	font-weight: normal;
@@ -235,7 +235,7 @@ small {
 }
 
 h1, h2, h3 {
-	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Sans-Serif;
+	font-family: "trebuchet ms", ubuntu, monaco, Sans-Serif;
 	font-weight: bold;
 }
 
@@ -288,9 +288,7 @@ small, .nocomments, .postmetadata, blockquote, strike {
 	color: #777;
 }
 
-code {
-	font: 1.1em 'Courier New','Courier 10 Pitch', Courier, Fixed;
-}
+
 
 acronym, abbr, span.caps {
 	font-size: 0.9em;
@@ -304,7 +302,7 @@ a, h2 a:hover, h3 a:hover {
 }
 
 a:hover {
-	color: #786179;
+	color: #697598;
 	text-decoration: underline;
 }
 
@@ -342,8 +340,8 @@ h2.pagetitle {
 }
 
 #sidebar h2 {
-	font-family:'Lucida Grande', Verdana, Sans-Serif;
-	font-size:12px;
+	font-family:"trebuchet ms", ubuntu, monaco, Sans-Serif;
+	font-size: 12px;
 	border-bottom: 1px solid #B4C9D1;
 	margin: 10px 0px 5px 0px;
 	padding: 5px 5px 5px 7px;
@@ -661,6 +659,7 @@ hr {
 }
 
 a img {
+    padding:2px 2px 2px 2px;
 	border: none;
 }
 
@@ -669,17 +668,6 @@ a img {
 	text-align:center;
 	margin-top: 10px;
 	margin-bottom: 10px;
-}
-
-table, td, th {
-    padding:3px 7px 2px 7px;
-    border:1px solid #cccccc;
-    border-collapse:collapse;
- }
-
-th {
-  text-align:center;
-  background-color:#A3B1C2;
 }
 
 /* clear the float */
@@ -694,3 +682,61 @@ th {
 
 * html .clearfix{zoom: 1;}      /* IE6.0 */
 *:first-child + html .clearfix{zoom: 1;}
+
+/* CODE
+=============================================================================*/
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, ubuntu, monaco, Sans-Serif;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  background-color: #F8F8F8;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f0f0f0;
+  border: 1px solid #E0E0E0;
+  font-size: 12px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}

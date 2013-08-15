@@ -2,16 +2,25 @@
 
 作者：独酌逸醉
 
-博客：http://www.perfect-is-shit.com/
+博客：[http://www.perfect-is-shit.com/](http://www.perfect-is-shit.com/)
 
 邮箱：chinajiezhang@gmail.com
 
 ---
+
 keepsimple 以“简洁”为理念，专门为 IT 技术博客设计的 wordpress 主题，是在 kubrick 主题的基础上进行修改的。
 详细的 keepsimple 由来请看：[至简的 wordpress 主题：keepsimple](http://www.perfect-is-shit.com/2012/09/29/wordpress-theme-keepsimple/)。
 
 ---
+
 ###版本更新列表###
+
+#### keepsimpe v0.8 ###
+
+1. 参考 github code css，设置 code 展现
+2. 添加表格样式
+3. 微调图片格式
+4. 修改 URL 链接配色
 
 ####keepsimpe v0.7####
 
