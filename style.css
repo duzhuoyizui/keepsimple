@@ -224,9 +224,7 @@ body {
 .thread-even {
 	background-color: white;
 }
-.depth-1 {
-border: 1px solid #ddd;
-}
+
 .even, .alt {
 	border-left: 1px solid #ddd;
 }
