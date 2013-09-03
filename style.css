@@ -96,6 +96,7 @@ body {
 }
 /* narrowcolumn & widecolumn */
 #content {
+    font-family: "Trebuchet MS", ubuntu, monaco, Sans-Serif;
 	font-size: 12px;
 }
 
@@ -410,7 +411,7 @@ html>body .entry ul {
 	margin-left: 0px;
 	padding: 5px 10px 5px 15px;
 	list-style: none;
-	border: 1px solid #F0F0F0;
+	/*border: 1px solid #F0F0F0;*/
 	/*text-indent: -2px;*/
 	/*text-indent: -10px;*/
 }
