@@ -13,6 +13,8 @@ keepsimple 以“简洁”为理念，专门为 IT 技术博客设计的 wordpre
 
 ---
 
+**由于技术博客已经由 Wordpress 引擎换为 Jekyll ，所以此 主题 不再更新维护。**
+
 ###版本更新列表###
 
 #### keepsimpe v0.8 ###
