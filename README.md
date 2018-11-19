@@ -1,30 +1,29 @@
-## keepsimple ##
+# keepsimple 
 
-作者：独酌逸醉
-
-主题 demo : [blog.zhangjiee.com](http://blog.zhangjiee.com)
+本项目已不再维护。
 
 ---
 
 keepsimple 以“简洁”为理念，专门为 IT 技术博客设计的 wordpress 主题，是在 kubrick 主题的基础上进行修改的。
-详细的 keepsimple 由来请看：[至简的 wordpress 主题：keepsimple](http://www.perfect-is-shit.com/wordpress-theme-keepsimple/)。
+
+详细的 keepsimple 由来请看：[至简的 wordpress 主题：keepsimple](http://www.zhangjiee.com/blog/wordpress-theme-keepsimple)。
 
 ---
 
-###版本更新列表###
+## 版本更新列表
 
-#### keepsimple v0.9 ####
+### v0.9
 
 1. 修改行间距
 
-#### keepsimpe v0.8 ####
+### v0.8
 
 1. 参考 github code css，设置 code 展现
 2. 添加表格样式
 3. 微调图片格式
 4. 修改 URL 链接配色
 
-#### keepsimple v0.7 ####
+### v0.7
 
 1. 修改字体，适配 Windows 7、Ubuntu、MAC OS 三个平台
 2. 所有显示页面全部删除 Read More
@@ -33,7 +32,7 @@ keepsimple 以“简洁”为理念，专门为 IT 技术博客设计的 wordpre
 
 更新日期: 2013/06/24
 
-#### keepsimple v0.6 ####
+### v0.6
 
 1. 主标题字号缩小
 2. 删除 Read More，修改日期的显示方式
@@ -44,7 +43,7 @@ keepsimple 以“简洁”为理念，专门为 IT 技术博客设计的 wordpre
 
 更新日期：2013年03月10日
 
-####keepsimple v0.5####
+### v0.5
 
 1. 修改字体类型（现在为：’trebuchet ms’,verdana, helvetica, arial, sans-serif）。
 2. 修改博文中“定制部分”颜色（颜色走向单一化）。
@@ -56,47 +55,44 @@ keepsimple 以“简洁”为理念，专门为 IT 技术博客设计的 wordpre
 
 更新日期：2013年01月18日
 
-####keepsimple v0.4####
+### v0.4
 
 1. 修改博文中“定制部分”颜色
 2. 修改标题样式
-3. 修改 ul li 样式
+3. 修改 `ul` `li` 样式
 4. 增加 Pagenavi，显示所有分页
 5. 增加评论分页功能
 6. 修改 sidebar 中标题下边框的颜色
 
 更新日期：2012年12月26日
 
-####keepsimple v0.3####
+### v0.3
 
 1. 配色修改
 2. 将静态页面改成单栏
 3. 宽度修正和审核
 4. 修改存档页面
-5. sidebar调整
-6. 将文章字体字号由14px改为12px
+5. sidebar 调整
+6. 将文章字体字号由 `14px` 改为 `12px`
 7. 部分汉化
 8. 细节的调整
-9. 增加“备注”和“声明”的CSS定制
+9. 增加“备注”和“声明”的 CSS 定制
 
 更新日期：2012年11月13日
 
-####keepsimple v0.2####
+### v0.2
 
 1. 宽度调整
 2. 配色修改
 3. 更换字体
-4. 添加表格CSS控制
+4. 添加表格 CSS 控制
 5. 间隔调整，使博客紧凑化
 6. 精简代码
 
-
 更新日期：2012年10月27日
 
-####keepsimple v0.1####
+### v0.1
 
 基本实现博客主题设计
-
-详细介绍：[至简的 wordpress 主题：keepsimply](http://www.perfect-is-shit.com/2012/09/29/wordpress-theme-keepsimple/)
 
 日期：2012年09月29日
